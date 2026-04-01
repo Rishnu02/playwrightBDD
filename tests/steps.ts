@@ -1,4 +1,11 @@
-fgthvbg
+import { isModuleNamespaceObject } from "node:util/types"
 
+HTMLBodyElement
 
-there is class
+Bella
+
+isModuleNamespaceObject
+ Vishal
+
+ 
+
