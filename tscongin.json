@@ -1,0 +1,10 @@
+{
+    "compilerOptions":{
+        "target":"ES2020",
+        "module":"commanjs",
+        "esModuleInterop":true,
+        "strict":true,
+        "types":["node"]
+    },
+    "include":["tests/**/*.ts"]
+}
