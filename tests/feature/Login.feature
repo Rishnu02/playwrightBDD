@@ -16,3 +16,8 @@ Feature: Login functionality
       | standard_user | wrong_password |
       | invalid_user  | wrong_password |
       | empty_user    | empty_pass     |
+
+ Scenario: Successful Login to saucedemo application twice
+    Given User is on saucedemo login page
+    When user hit login button after entering username and password
+    Then login should be successful and user can can page title

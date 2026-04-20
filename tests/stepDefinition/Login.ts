@@ -46,3 +46,4 @@ Then('login should fail with error message', async() => {
     const errorMessage = page.locator('[data-test="error"]');
     await expect(errorMessage).toBeVisible();
 });
+
